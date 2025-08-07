@@ -6,8 +6,45 @@
 
 .navbar {
     height: 60px;
-    width: 220px;
     background-color: #0f1111;
     color: white;
     display: flex;
+    align-items: center;
+} 
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Address Section */
+.add-first {
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-left: 22px;
+}
+.add-sec {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
 }
