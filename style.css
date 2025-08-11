@@ -54,7 +54,7 @@
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    width: 620px;
+    width: 730px;
     height: 40px;
     border-radius: 4px;
     background-color:pink;
@@ -91,6 +91,32 @@
     border: 2px solid orange;
 }
 
+
+/* Language Selector */
+.language-selector {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.language-selector img {
+    width: 30px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.language-selector span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.language-selector .arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    margin-left: 5px;
+    transform: rotate(45deg);
+}
 
 /* Sign In Section */
 span {
