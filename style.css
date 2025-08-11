@@ -87,6 +87,10 @@
     color: black;
 }
 
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
 
 /* Sign In Section */
 span {
@@ -97,3 +101,14 @@ span {
     font-size: 00.85rem;
     font-weight: 700;
 }
+
+/* Cart Section */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem ;
+    font-weight: 700;
+}
+    
