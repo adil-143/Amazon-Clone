@@ -170,7 +170,7 @@ span {
 .hero-section {
     background-image: url("hero_image.jpg");
     background-size: cover;
-    height: 375px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -190,4 +190,22 @@ span {
 
 .hero-msg a {
     color: #007185;
+}
+
+/**Shop section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b6d1cc;
+}
+
+.box {
+    height: 250px;
+    width: 23%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.box-img {
+    height: 100px;
 }
