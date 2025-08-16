@@ -241,21 +241,27 @@ footer{
 }
 
 .foot-panel2{
-        height: 300px;
-        background-color: #222f3d;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+    padding: 20px;
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 ul{
     margin-top: 20px;
 }
 
+ul p{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 ul a{
     display: block;
-    font-size: 0.85rem;
+    font-size: 0.80rem;
     margin-top: 10px;
     color: white;
 }
